@@ -1,0 +1,352 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital@1&family=Source+Code+Pro:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital@1&family=Heebo&family=Open+Sans&family=Source+Code+Pro:ital@1&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+/*.logo{
+    text-align: center;
+    font-weight: bold;
+}*/
+
+.container{
+    display: flex;
+    background-color: azure;
+    
+}
+.loginform{
+    padding: 0px 416px;
+    padding-top: 270px;
+    margin: 0px 170px;
+}
+.sidebar{
+    /*background-color:antiquewhite;*/
+    background-color: rgb(156, 152, 152);
+    /*width: 10vw;*/
+    /*width: 433px;*/
+    font-family: 'Fira Sans', sans-serif;
+    
+    height: 100vh;
+    /*background: #34495e;*/
+    transition: transform 0.3s ;
+}
+.sidebar nav{
+    padding: 10px;
+
+}
+
+.sidebar nav li{
+    list-style: none;
+    font-size: 2em;
+    padding: 50px 0;
+}
+.sidebar nav li a{
+    text-decoration: none;
+    color: white;
+
+}
+.sidebar nav li a:hover{
+    color: red;
+    text-decoration: underline;
+}
+
+.main{
+    /*background-color: aliceblue;*/
+    width: 90vw;
+    height: 100vh;
+    /*background-color: #2f3640;*/
+}
+
+
+.menubar{
+    position: absolute;
+    cursor: pointer;
+    top: 10px;
+    left: 10px;
+}
+
+.infocontainer{
+    /*background-color: brown;*/
+    
+    width: 80vw;
+    margin: 130px auto;
+    height: 50vh;
+    display: flex;
+    justify-content: space-around;
+    
+}
+.info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: 'Source Code Pro', monospace;
+    margin: 40px;
+    font-size: 18px;
+}
+.hello{
+    font-size: 3em;
+    font-weight: bold;
+    font-family: 'Heebo', sans-serif;
+}
+
+.about{
+    font-size: 2em;
+    color: blueviolet;
+    font-family: 'Fira Sans', sans-serif;
+    /*font-family: 'Heebo', sans-serif;*/
+}
+.moreabout{
+    font-size: 2em;
+    font-family: 'Fira Sans', sans-serif;
+    margin-top: 20px;
+}
+
+.buttons{
+    margin-top: 20px;
+}
+.buttons button{
+    padding: 9px 14px;
+    border-radius: 20px;
+    color: black;
+    background-color: yellow;
+    margin: 0px 10px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.buttons button:hover{
+    color: black;
+    background-color: white;
+}
+.image img{
+    height: 50vh;
+    border-radius: 50%;
+    background-size: cover;
+}
+
+/*conatct.html------*/
+.contactform{
+    font-family: 'Fira Sans', sans-serif;
+    padding: 0 40px;
+    padding-top: 150px;
+    margin: 0 100px;
+}
+
+.contactform h1{
+    font-family: 'Source Code Pro', monospace;
+    text-align: center;
+}
+
+.contactform form div{
+    padding: 27px 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.contactform form div input{
+    width: 20vw;
+    border-radius: 6px;
+    font-size: 20;
+    font-size: 20px;
+}
+.contactform form button{
+    padding: 17px;
+    font-size: 16px;
+    color: black;
+    background-color: yellow;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.contactform form button:hover{
+    color: black;
+    background-color: white;
+
+}
+.you{
+    padding-top: 20px;
+}
+.you .profile{
+    display: flex;
+    flex-direction: row;
+    padding-top: 20px;
+}
+.you .profile .icon{
+    margin: 10px;
+}
+
+/*About.html-----------*/
+.flex{
+    margin: 10px;
+}
+.intro{
+    /*text-align: center;*/
+    padding-top: 30px;
+    font-family: 'Fira Sans', sans-serif;
+}
+.intro p{
+    padding-top: 10px;
+}
+.Education{
+    /*align-items: center;*/
+    display: flex;
+    flex-direction: column;
+    padding-top: 50px;
+    font-family: 'Fira Sans', sans-serif;
+}
+.Education table td{
+    padding: 10px;
+}
+.Hobbiess{
+    display: flex;
+    flex-direction: column;
+    /*align-items: center;*/
+    padding-top: 50px;
+    font-family: 'Fira Sans', sans-serif;
+}
+
+.skills{
+    display: flex;
+    flex-direction: column;
+    /*align-items: center;*/
+    padding-top: 50px;
+    font-family: 'Fira Sans', sans-serif;
+}
+
+/*project------*/
+.moremain{
+    margin: 25px;
+    font-family: 'Fira Sans', sans-serif;
+}
+.project-intro{
+    padding-bottom: 10px;
+}
+.project-intro p{
+    font-size: 20px;
+}
+.projects{
+    display: grid;
+    grid-template-rows: 280px 280px;
+    grid-template-columns: 1fr 1fr;
+    row-gap: 60px;
+    column-gap: 150px;
+}
+
+.ceaser .ceaser-img img{
+    height: 10vh;
+    width: 20vw;
+}
+.ceaser .ceaser-img a{
+    display: block;
+}
+.mergesort .mergesort-img img{
+    height: 10vh;
+    width: 20vw;
+  
+}
+.mergesort .mergesort-img a{
+    display: block;
+}
+.web .para .web-image img{
+    height: 20vh;
+    width: 20vw;
+}
+.web .para .web-image a{
+    display: block;
+}
+.game .para  .game-image img{
+    height: 20vh;
+    width: 20vw;
+}
+.game .game-image  a{
+    display: block;
+}
+.moremain a:hover{
+    color: red;
+}
+
+
+.toggle{
+    transform: translate(-164px,0px);
+    position: absolute;
+}
+
+
+
+/*.cross{
+    margin-left: 68px;
+}*/
+@media(max-width:1300px){
+
+   /*.sidebarGo{
+        transform: translate(-164px,0px);
+    }*/
+    .main,.sidebar{
+        height: auto;
+    }
+    .infocontainer{
+        height: auto;
+    }
+
+}
+
+@media(max-width:600px){
+    
+   /*.infocontainer{
+        height: auto;
+        /*margin: 20px;
+    }*/
+    
+    .moremain{
+        margin: 20px;
+    }
+   .contactform{
+    margin: auto;
+    padding-top: 200px;
+   }
+    
+}
+@media(max-width:680px){
+    .projects{
+        row-gap: 200px;
+    }
+}
+@media(max-width:1070px){
+    .info{
+        font-size: 10px;
+    }
+    .loginform{
+        margin-left: auto;
+    }
+    .infocontainer{
+        flex-direction: column;
+       height: auto;
+    }
+    
+
+}
+
+@media(max-width:815px){
+    .info{
+        font-size: 6px;
+    }
+}
+@media(max-width:460px){
+    .projects{
+        row-gap: 380px;
+    }
+    .loginform{
+        font-size: x-large;
+    }
+}
+@media(max-width:580px){
+    .projects{
+        row-gap: 500px;
+    }
+}
+@media(max-width:540px){
+    .infocontainer{
+        margin: 150px auto;
+        
+    }
+}

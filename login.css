@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital@1&family=Heebo&family=Open+Sans&family=Source+Code+Pro:ital@1&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    background-color: aliceblue
+}
+.loginform{
+    margin: 200px;
+    padding-left: 400px;
+}
+.loginform h1{
+    padding-bottom: 50px;
+}
+.loginform .butn{
+    padding-top: 30px;
+    border-radius: 20px;
+}
+.loginform button{
+    border-radius: 17px;
+    font-size: 30px;
+    padding: 20px;
+    background-color: yellow;
+    cursor: pointer;
+}
+
+.user{
+    padding-bottom: 30px;
+    font-size: 20px;
+    font-family: 'Heebo', sans-serif;
+}
+.pass{
+    padding-bottom: 30px;
+    font-size: 20px;
+    font-family: 'Heebo', sans-serif;
+}
